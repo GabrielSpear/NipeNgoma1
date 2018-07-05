@@ -1,34 +1,30 @@
-![black-magic-studio](mojo.png)
-# black-magic-studio
+# [NipeNgoma]
+#### Web app whereby different kinds of new music is diplayed for djs and media houses.
+#### By **[Gabriel Gatumu](https://github.com/GabrielSpear/)**
 
-## Author
+## Description
+This is a web app whereby different artists music is displayed for djs and media houses to download
+### User Stories
 
-[Garvin Ogolla]
+####  As A User I Would Like:
 
-# DESCRIPTION
+      listen to Music
+      Download desired music
 
-This is a responsive artist website.
 
-# Technologies Used
-
-#### This project uses major technologies which are :
-* HTML
-* CSS
-* Bootstrap4
-
+## Technologies used
+    - HTML
+    - Bootstrap 4
+    - JavaScript
+    - css
 
 ## Support and contact details
-
-{Email:garvinipkiss@gmail.com}
-{Facebook: Garvin Berserk}
-
-## MIT License
-Copyright (c) [2018] [Garvin Ogolla]
+```
+Incase you have any questions issues while using this code do not hesitate to get in touch with me via gabrieldvjspear@gmail.com
+```
+### License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-# black-magic-studio
+MIT (c) **Gabriel Gatumu**
