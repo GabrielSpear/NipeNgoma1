@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sensated music Submission site</title>
+<meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
+ 	<!-- boostrap -->
+
+	<link rel="stylesheet" href="assets/animate.css">
+	<link rel="stylesheet" href="assets/style.css">
+  <link rel="shortcut icon" href="assets/images/ngoma.jpg (or ico?)" type="image/x-icon" />
+
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=249078091804020&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Header Starts -->
+<div class="navbar-wrapper ">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDown" role="navigation" id="top-nav">
+          <div class="container">
+            <div class="navbar-header">
+              <!-- Logo Starts -->
+              <a class="navbar-brand" href="#home"><img src="assets/images/logo.gif" height="30" alt="logo"/></a>
+              <!-- #Logo Ends -->
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+            </div>
+
+            <!-- Nav Starts -->
+            <div class="navbar-collapse  collapse">
+              <ul class="nav navbar-nav navbar-right" >
+                  <li class="active"><a href="#home">Home</a></li>
+                 <li><a href="#playlist">Playlist</a></li>
+                 <li><a href="#album">Albums</a></li>
+                 <li><a href="#contact"><a href="http://www.spearsensation.co.ke">Contacts</a></li>
+              </ul>
+            </div>
+            <!-- #Nav Ends -->
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- #Header Starts -->
+
+<!-- overlay -->
+<div class="container overlay">
+
+<!-- home banner starts -->
+<div id="home" class="homeinfo">
+<div class="row">
+	<div class="col-sm-6 col-xs-12">
+	<div class="fronttext">
+	 	<h2 class="bgcolor  animated fadeInUpBig">Music Bank</h2><br>
+		<p class=" animated fadeInUp">Promoting local talent at all cost</p>
+	</div>
+	</div>
+
+	<div class="col-sm-5 col-xs-12 col-sm-offset-1">
+	<div class="player">
+		<!-- <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338316762&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"> -->
+</iframe>
+		</div>
+	</div>
+
+</div>
+</div>
+<!-- home banner ends -->
+
+<!-- blockblack -->
+<div class="blockblack">
+
+<!-- playlist Starts -->
+<div id="playlist" class="spacer">
+	<div class="row">
+					<div class="col-md-12 col-xs-12">
+					<h3><span class="glyphicon glyphicon-list"></span> Playlist</h3>
+					<!-- <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3591606&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe> -->
+
+          <h3><iframe id="ytplayer" type="text/html" width="140" height="360" frameborder="no" src="ttps://www.youtube.com/"></iframe></h3>
+
+          </div>
+	</div>
+</div>
+<!-- #playlist Ends -->
+
+
+<!-- latest release starts-->
+<div id="album" class="releases spacer">
+<h3><span class="glyphicon glyphicon-music"></span> Present Tracks</h3>
+<div class="row">
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/Octo.jpg" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Noma Ni</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span>Listen</a></div></div></div>
+
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/kaka.jpg" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>RunTing</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span> Listen </a></div></div></div>
+
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/jimmie.jpeg" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>On my Way</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span> Listen </a></div></div></div>
+
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/msupas.jpeg" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Watajua Hawajui</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span> Listen </a></div></div></div>
+
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/equalizer.jpg" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Mi Na Yule</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span> Listen </a></div></div></div>
+
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/dj.png" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Now You Know</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span> Listen </a></div></div></div>
+
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/mejja.jpeg" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Bablas</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span> Listen </a></div></div></div>
+
+	<div class="col-sm-3 col-xs-12"><div class="album"><img src="assets/images/Bobby.jpeg" class="img-responsive" alt="music theme" /><div class="albumdetail"><h5>Girls Like you</h5><a href="#" class="listen" data-toggle="modal" data-target="#albumdetail"><span class="glyphicon glyphicon-music"></span> Listen </a></div></div></div>
+</div>
+</div>
+<!-- latest release ends-->
+
+<!--Blog Event Starts-->
+<div id="blogevent"  class="blogevent spacer">
+<div class="row">
+
+	<!-- blog -->
+	<div class="col-md-5 col-md-offset-1 col-xs-12">
+		<div class="ourblog">
+		<h3><span class="glyphicon glyphicon-book"></span> Trends</h3>
+            <ul class="row">
+              <li class="row"><a href="#" data-toggle="modal" data-target="#blogdetail" class="col-xs-12 col-sm-3 col-lg-4"><img src="assets/images/Gabu2.jpg" class="img-responsive" alt="music theme" /></a>
+              <div class="blogtext col-xs-12 col-sm-9  col-lg-8"><h5><a href="#" data-toggle="modal" data-target="#blogdetail">New music</a></h5>
+              <small>Posted on: June, 2018<</small>
+              <p>Great new music. </p>
+              </div>
+              </li>
+              <li class="row"><a href="#" data-toggle="modal" data-target="#blogdetail" class="col-xs-12 col-sm-3 col-lg-4"><img src="assets/images/ngoma.jpg" class="img-responsive" alt="music theme" /></a>
+              <div class="blogtext col-xs-12 col-sm-9  col-lg-8"><h5><a href="#" data-toggle="modal" data-target="#blogdetail">New trends in music</a></h5>
+              <small>Posted on: June, 2018</small>
+              <p>Great new music. </p>
+              </div>
+              </li>
+            </ul>
+            </div>
+
+	</div>
+	<!-- blog -->
+
+</div>
+</div>
+<!--Blog Events Ends-->
+
+<!--Contact Starts-->
+<div id="contact" class="spacer">
+<div class="contactform center">
+<h3><span class="glyphicon glyphicon-envelope"></span> Contacts</h3>
+  <div class="row">
+      <div class="col-sm-6 col-sm-offset-3 ">
+      <h4>Lets Interact</h4>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <textarea rows="5" placeholder="Message"></textarea>
+        <button class="btn btn-warning bgcolor">Send</button>
+      </div>
+  </div>
+
+</div>
+<!--Contact Ends-->
+</div>
+
+</div>
+<!-- blockblack -->
+
+</div>
+<!-- overlay -->
+
+<!-- Footer Starts -->
+<div id="footer">
+<div class="container">
+Copyright.<a href="http://www.spearsensation.co.ke">Sensation Entertainment 2018</a>
+</div>
+</div>
+<!-- # Footer Ends -->
+
+
+<!-- background slider -->
+<div id="myCarousel" class="carousel slide hidden-xs">
+<div class="carousel-inner">
+    <div class="active item"><img src="assets/images/ngoma.jpg" alt="" /></div>
+    <div class="item"><img src="assets/images/ngoma04.jpg" alt="" /></div>
+    <div class="item"><img src="assets/images/ngoma02.jpg" alt="" /></div>
+    <div class="item"><img src="assets/images/ngoma01.jpg" alt="" /></div>
+  </div>
+</div>
+<!-- background slider -->
+
+<!-- Modal -->
+<div class="modal fade" id="blogdetail" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+
+<div id="blog">
+<h2>Trending Tracks</h2>
+<small>Posted on: July 03, 2018</small>
+
+      <a href="#" class="thumbnail"><img src="assets/images/equalizer.jpg" class="img-reponsive" alt="blog" /></a>
+
+      <div class="col-lg-8 col-lg-offset-2">
+      <p>For more music visit www.spearsensation.co.ke.</p>
+      </div>
+
+</div>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="albumdetail" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+<h2>Mojo</h2>
+<h3><span class="glyphicon glyphicon-list"></span> Playlist</h3>
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3591606&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript" ></script>
+  <!-- boostrap -->
+  <script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+  <script src="assets/scripts/plugins.js" type="text/javascript"></script>
+  <script src="assets/scripts/script.js" type="text/javascript"></script>
+
+</body>
+</html>
