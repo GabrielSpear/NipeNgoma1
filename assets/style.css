@@ -21,8 +21,6 @@ blockquote {padding: 0px 20px;margin: 0 0 20px;border-left: 5px solid #aaa;font-
 .center{text-align: center;}
 .thumbnail{ background-color:green;}
 
-
-
 /*home*/
 .homeinfo{padding:250px 0 20px 0;}
 .homeinfo .player{margin-top: 70px;position: relative;}
@@ -40,14 +38,11 @@ a{color:#f2ab00; text-decoration:none}
 a:hover{color:#fff;text-decoration:none}
 /*color*/
 
-
 /*nav*/
 .navbar-brand{padding: 10px 15px;}
 .navbar-nav > li > a{font-size: 14px;}
 .navbar-inverse{background: #000;border:none;}
 /*nav*/
-
-
 
 /*releases*/
 .releases{margin-bottom: 20px;}
@@ -57,27 +52,6 @@ a:hover{color:#fff;text-decoration:none}
 .releases .album .albumdetail a{font-size:14px; }
 /*releases*/
 
-/*blog*/
-.blogevent{color: #ccc;}
-.blogevent ul{padding: 0; list-style: none; margin-top: 35px;}
-.blogevent ul li{font-size: 13px;}
-.blogevent ul li p{margin: 0;line-height: 18px;}
-
-.events ul li{background-color: #191919;margin-bottom: 1px;}
-.events ul li h5{margin: 7px 0;}
-.events ul li .date{text-align: center;line-height: 38px;color: #444;text-shadow: 0px -1px 0px #000;padding-top: 10px;padding-bottom: 10px;background-color: #111}
-.events ul li .date b{display: block;font-size: 30px;}
-.events ul li .date span{font-size: 22px;}
-
-
-.ourblog ul li{margin-bottom: 20px;}
-.ourblog ul li img{float: left; margin-right: 20px;}
-.ourblog ul li .blogtext{overflow: hidden;}
-/*blog*/
-
-
-
-
 /*modal*/
 .modal-dialog{max-width: 800px; width: 95%;}
 .modal-content{overflow: auto; padding:0 20px;color: #444;}
@@ -86,10 +60,6 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 #blog small{margin-bottom: 10px;display: block;}
 /*modal*/
 
-
-
-
-
 /*contact*/
 .contactform textarea,.contactform input{width: 100%;padding:2%;border:1px solid #ccc;margin-bottom: 20px;border-radius: 5px;outline: none;}
 .contactform .map{border:none;box-shadow:0;margin-top: 50px;}
@@ -97,9 +67,7 @@ button.close{position: absolute;right: 0;background: #FFF;width: 25px;height: 25
 .contactform iframe{float: left;}
 /*contact*/
 
-
-#footer{background-color: #000; padding: 5px 0; color: #fff; font-size: 14px;color: #aaa;margin-top: 50px; z-index: 100;position: relative;}
-
+#footer{background-color: #6A656D; padding: 5px 0; color: #fff; font-size: 14px;color: #aaa;margin-top: 50px; z-index: 100;position: relative;}
 
 /*background slider*/
 .carousel{position: fixed; top: 0; left: 0;right: 0;bottom: 0; z-index:10;width: 100%;}
